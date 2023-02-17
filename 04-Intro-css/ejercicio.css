@@ -1,0 +1,28 @@
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#elemento-1{
+    color: red;
+}
+ul>#elemento-1{
+    font-size: 2rem;
+}
+
+#alimentos{
+    background-color: aquamarine;
+    border: solid;
+    border-color: rgb(7, 105, 22);
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px 20px;
+}
+
+#supermercados{
+    background-color: cadetblue;
+    border: solid;
+    border-color: rgb(0, 72, 139);
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px 20px;
+}
