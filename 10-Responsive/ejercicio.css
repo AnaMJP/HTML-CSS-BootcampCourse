@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.barra-lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: green;
+    color: aliceblue;
+    font-size: large;
+}
+
+.seccion-principal{
+    display: flex;
+    float: right;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    flex-grow: 2;
+    background-color: bisque;
+    
+}
+
+@media (max-width:840px) {
+    body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        background-color: bisque;
+        flex-direction: column-reverse;
+    }
+
+    .barra-lateral{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 10em;
+    }
+    
+}
